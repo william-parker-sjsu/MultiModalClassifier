@@ -1,3 +1,11 @@
+# Homework 2: Inference Optimization
+
+For this assigment, I chose the inference optimization option. For this, I made two new files, a notebook called `inference_notebook.ipynb` that I used to get the code working and running the visualizations I used in the report, and a python file called `inferenceOptimization.py` that contains the final code that I used to run the inference optimization from a single entry point in a similar format to the rest of the codebase.
+
+I chose to use PyTorch, with the base inference, TorchScript optimization, and OpenVimo. I chose to run these optimizations on PyTorch's pretrained ResNet50 and MobileNetV2 models. I also used a subset of the ImageNet dataset to test the models. Some example images are included in the `test_images` folder, and for a sligtly more extensive test, I used imageNet from Hugging Face in the notebook.
+
+---
+
 # MultiModalClassifier
 This is a project repo for multi-modal deep learning classifier with popular models from Tensorflow and Pytorch. The goal of these baseline models is to provide a template to build on and can be a starting point for any new ideas, applications. If you want to learn basics of ML and DL, please refer this repo: https://github.com/lkk688/DeepDataMiningLearning.
 
